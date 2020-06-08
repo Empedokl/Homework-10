@@ -118,18 +118,19 @@ a{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; 
+    align-self: flex-end;
 }
 
 .cart-list__basket{
-    height: 15px;
+    height: 20px;
     width: 18px;
     background-image: url("../img/cart-list/cart.svg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     margin-right: 40px;
 }
 .cart-list__btn{
-    height: 18px;
+    height: 19px;
     width: 18px;
     background-color: transparent;
     border: none;
